@@ -20,7 +20,46 @@ require("includes/common.php");
         <script src="js/jquery.js"></script>
         <!-- Bootstrap Core JavaScript -->
         <script src="js/bootstrap.min.js"></script>
+        <!-- custom styles by tejas weldode -->
+        <style>
+            body{
+                background-color: rgb(210, 247, 210);
+            }
+        .jumbotron{
+            background-color: rgb(18, 170, 18);
+            color: white;
+            box-shadow: 12px 10px 26px -10px rgba(0,0,0,0.53);
+            -webkit-box-shadow: 12px 10px 26px -10px rgba(0,0,0,0.53);
+            -moz-box-shadow: 12px 10px 26px -10px rgba(0,0,0,0.53);
+        }
+        .thumbnail{
+            background: white;
+            border-radius: 20px;
+            box-shadow: 12px 10px 26px -10px rgba(0,0,0,0.53);
+            -webkit-box-shadow: 12px 10px 26px -10px rgba(0,0,0,0.53);
+            -moz-box-shadow: 12px 10px 26px -10px rgba(0,0,0,0.53);
+            
+        }
+        .thumbnail img{
+            border-radius: 20px;
+        }
+        .thumbnail a{
+            border-style: none;
+            font-weight: 700;
+            border-radius: 10px;
+            max-width: fit-content;
+            padding: 10px 20px;
+            background-color: rgb(18, 170, 18);
+        }
+        .thumbnail .caption{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
     </head>
+
+    
 
     <body>
         <?php
@@ -29,9 +68,10 @@ require("includes/common.php");
         ?>
         <div class="container" id="content">
             <!-- Jumbotron Header -->
-            <div class="jumbotron home-spacer" id="products-jumbotron">
-                <h1>Welcome to our Lifestyle Store!</h1>
-                <p>We have the best cameras, watches and shirts for you. No need to hunt around, we have all in one place.</p>
+            <!-- <div class="jumbotron home-spacer" id="products-jumbotron"> -->
+            <div class="jumbotron home-spacer myJumbotron" id="products-jumbotron">
+                <h1>Plants make life better!</h1>
+                <p>Discover a lush world of greenery and gardening essentials all in one place. From vibrant plants to gardening tools, we have everything you need to nurture your garden.</p>
 
             </div>
             <hr>
