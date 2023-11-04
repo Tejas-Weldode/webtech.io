@@ -70,7 +70,7 @@ require("includes/common.php");
             <!-- Jumbotron Header -->
             <!-- <div class="jumbotron home-spacer" id="products-jumbotron"> -->
             <div class="jumbotron home-spacer myJumbotron" id="products-jumbotron">
-                <h1>Plants make life better!</h1>
+                <h1>Our products</h1>
                 <p>Discover a lush world of greenery and gardening essentials all in one place. From vibrant plants to gardening tools, we have everything you need to nurture your garden.</p>
 
             </div>
