@@ -44,13 +44,18 @@ require("includes/common.php");
                 border-radius: 20px;
             }
             .thumbnail a{
-                border-style: none;
+                border: 1px solid white;
                 font-weight: 700;
                 border-radius: 10px;
                 max-width: fit-content;
                 padding: 10px 20px;
                 background-color: rgb(18, 170, 18);
+            }.thumbnail a:hover{
+                background-color: white;
+                color: rgb(18, 170, 18);
+                border: 1px solid rgb(18, 170, 18);
             }
+
             .thumbnail .caption{
                 display: flex;
                 flex-direction: column;
