@@ -25,20 +25,11 @@ if (!isset($_SESSION['email'])) {
                 background-color: white;
                 border: 1px solid rgb(18, 170, 18);
             }
-            .image{
-                width:100%;
-                display: flex;
-                justify-content: center;
-            }
         </style>
     </head>
     <body>
         <div class="container" id="content">
             <?php include 'includes/header.php'; ?>
-
-            <div class="image">
-                <img src="img/confirmorder.png">
-            </div>
 
             <table class="table table-striped">
 
