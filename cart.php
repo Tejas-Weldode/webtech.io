@@ -16,7 +16,7 @@ if (!isset($_SESSION['email'])) {
     </head>
     <body>
         <div class="container-fluid" id="content">
-            <?php include 'header.php'; ?>
+            <?php include 'includes/header.php'; ?>
             <div class="col-lg-4 col-md-6 ">
                     <img src="img/confirmorder.png" style="float: left;">
                 </div>
