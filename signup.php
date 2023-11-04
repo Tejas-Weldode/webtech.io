@@ -13,17 +13,37 @@ if (isset($_SESSION['email'])) {
         <link href="css/style.css" rel="stylesheet">
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <style>
+
+        body {
+        background-image: url('img./jungle.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        }
+        .row{
+            display : flex;
+            justify-content : center;
+            align-cintent: center;
+            margin-left: 29vw;
+            padding-bottom : 5px;
+        }
+        .main{
+            border-radius: 3%;
+            background-color: white;
+        }
+        </style>
     </head>
-    <body>
-        <?php include 'header.php'; ?>
-        <div class="container-fluid decor_bg" id="content">
-            <div class="col-lg-4 col-md-6">
-                <img src="img/signup1.jpg">
-            </div>
+    <body >
+        <?php include  'includes/header.php'; ?>
+        <div class="container-fluid decor_bg" id="content" >
+            <!-- <div class="col-lg-4 col-md-6">
+                <img src="img/signup1.jpg" style="width: 39vw;height: 74vh;">
+            </div> -->
             <div class="row">
-                <div class="container">
-                    <div class="col-lg-4 col-lg-offset-3 col-md-6">
-                        <h2>SIGN UP</h2>
+                <div class="container" style = "text-align : center;">
+                    <div class="col-lg-4 col-lg-offset-3 col-md-6 main" >
+                        <h2 style = "color:rgb(18, 170, 18)">SIGN UP</h2>
                         <form  action="signup_script.php" method="POST">
                             <div class="form-group">
                                 <input class="form-control" placeholder="Name" autofocus="on" name="name"  required = "true" pattern="^[A-Za-z\s]{1,}[\.]{0,1}[A-Za-z\s]{0,}$">
@@ -43,7 +63,7 @@ if (isset($_SESSION['email'])) {
                             <div class="form-group">
                                 <input  type="text" class="form-control"  placeholder="Address" name="address" required = "true">
                             </div>
-                            <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+                            <button type="submit" name="submit" class="btn btn-primary" style="background-color:rgb(18, 170, 18) ">Submit</button>
                         </form>
                     </div>
                 </div>

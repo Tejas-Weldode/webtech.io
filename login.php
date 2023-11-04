@@ -17,20 +17,69 @@ if (isset($_SESSION['email'])) {
         <link href="css/style.css" rel="stylesheet">
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <style>
+            
+        body {
+        background-image: url('img./jungle.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        }
+
+        .main{
+            border-radius: 3%;
+            background-color: white;
+            width: 36vw;
+        }
+
+        .row{
+            display : flex;
+            /* justify-content : center; */
+            align-cintent: center;
+            margin-left: 29vw;
+            padding-bottom : 5px;
+        }
+        .panel {
+             margin-top: 20px;
+        }
+        .panel-primary>.panel-heading {
+            color: #fff;
+            background-color: rgb(18, 170, 18);
+            border-color: rgb(18, 170, 18);
+        }
+        .panel-primary {
+              border-color: rgb(18, 170, 18);
+        }
+
+        .btn-primary {
+            color: #fff;
+            background-color: rgb(18, 170, 18);
+            border-color: rgb(18, 170, 18);
+        }
+
+        a {
+            color: rgb(18, 170, 18);
+            text-decoration: none;
+        }
+
+        
+        </style>
     </head>
 
     <body>
-        <?php include 'header.php'; ?>
+        <?php include 'includes/header.php'; ?>
         <div id="content">
             <div class="container-fluid decor_bg" id="login-panel">
-                <div class="col-lg-4 col-md-6">
+                <!-- <div class="col-lg-4 col-md-6">
                     <img src="img/yess.jpg">
-                </div>
+                </div> -->
                 <div class="row">
-                    <div class="col-lg-4 col-lg-offset-3 col-md-4">
+                    <div class="col-lg-4 col-lg-offset-3 col-md-4 main">
                         <div class="panel panel-primary" >
                             <div class="panel-heading">
+                                <center>
                                 <h4>LOGIN</h4>
+                                </center>
                             </div>
                             <div class="panel-body">
                                 <p class="text-warning"><i>Login to make a purchase</i><p>
