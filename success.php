@@ -19,21 +19,28 @@ mysqli_query($con, $query) or die($mysqli_error($con));
         <title>Success | Life Style Store</title>
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
+        <style>
+            body{
+                background: rgb(18,170,18);
+                background: linear-gradient(138deg, rgba(18,170,18,1) 0%, rgba(100,255,100,1) 46%, rgba(18,170,18,1) 100%); 
+            }
+            .jumbotron{
+                background-color: white;
+            }
+        </style>
     </head>
     <body>
-        <?php include 'header.php'; ?>
+        <?php include 'includes/header.php'; ?>
 
-        <div class="container-fluid" id="content">
+        <div class="container" id="content">
             <div class="col-md-12">
-                <div class="col-lg-4 col-md-6 ">
-                    <img src="img/thanks.png" style="float: left;">
-                </div>
                 <div class="jumbotron">
-                      <h3 align="center">YAY!! Your order is confirmed. Thank you for shopping with us.</h3><hr>
+                    <h3 align="center">YAY!! Your order is confirmed. Thank you for shopping with us.</h3><hr>
                     <p align="center">Click <a href="products.php">here</a> to purchase any other item.</p>
                 </div>
             </div>
         </div>
+
         <?php include("includes/footer.php");
         ?>
     </body>
