@@ -14,9 +14,12 @@ if (!isset($_SESSION['email'])) {
         <link href="css/style.css" rel="stylesheet">
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <style>
+            
+        </style>
     </head>
     <body>
-        <?php include 'header.php'; ?>
+        <?php include 'includes/header.php'; ?>
         <div class="container-fluid" id="content">
             <div class="col-lg-4 col-md-6">
                     <img src="img/settings.jpg">
