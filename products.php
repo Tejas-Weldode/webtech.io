@@ -26,38 +26,37 @@ require("includes/common.php");
                 background: white;
                 
             }
-        .jumbotron{
-            background-color: rgb(18, 170, 18);
-            color: white;
-            box-shadow: 12px 10px 26px -10px rgba(0,0,0,0.53);
-            -webkit-box-shadow: 12px 10px 26px -10px rgba(0,0,0,0.53);
-            -moz-box-shadow: 12px 10px 26px -10px rgba(0,0,0,0.53);
-        }
-        .thumbnail{
-            background-color: rgb(210, 247, 210);
-            border-radius: 20px;
-            box-shadow: 12px 10px 26px -10px rgba(0,0,0,0.53);
-            -webkit-box-shadow: 12px 10px 26px -10px rgba(0,0,0,0.53);
-            -moz-box-shadow: 12px 10px 26px -10px rgba(0,0,0,0.53);
-            
-        }
-        .thumbnail img{
-            border-radius: 20px;
-        }
-        .thumbnail a{
-            border-style: none;
-            font-weight: 700;
-            border-radius: 10px;
-            max-width: fit-content;
-            padding: 10px 20px;
-            background-color: rgb(18, 170, 18);
-        }
-        .thumbnail .caption{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-    </style>
+            .jumbotron{
+                background-color: rgb(18, 170, 18);
+                color: white;
+                box-shadow: 12px 10px 26px -10px rgba(0,0,0,0.53);
+                -webkit-box-shadow: 12px 10px 26px -10px rgba(0,0,0,0.53);
+                -moz-box-shadow: 12px 10px 26px -10px rgba(0,0,0,0.53);
+            }
+            .thumbnail{
+                border-radius: 20px;
+                box-shadow: 12px 10px 26px -10px rgba(0,0,0,0.53);
+                -webkit-box-shadow: 12px 10px 26px -10px rgba(0,0,0,0.53);
+                -moz-box-shadow: 12px 10px 26px -10px rgba(0,0,0,0.53);
+                
+            }
+            .thumbnail img{
+                border-radius: 20px;
+            }
+            .thumbnail a{
+                border-style: none;
+                font-weight: 700;
+                border-radius: 10px;
+                max-width: fit-content;
+                padding: 10px 20px;
+                background-color: rgb(18, 170, 18);
+            }
+            .thumbnail .caption{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        </style>
     </head>
 
     
