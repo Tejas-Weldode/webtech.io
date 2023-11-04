@@ -14,31 +14,41 @@ if (!isset($_SESSION['email'])) {
         <link href="css/style.css" rel="stylesheet">
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <style>
+            button{
+                background-color: rgb(18, 170, 18);
+                color: white;
+            }
+            button:hover{
+                background-color: white;
+                border: 1px solid rgb(18, 170, 18);
+            }
+            body{
+                background-image: url("img/settings_bg.jpg");
+                background-size: contain;
+            }
+            h3{
+                color: white;
+            }
+        </style>
     </head>
     <body>
-        <?php include 'header.php'; ?>
-        <div class="container-fluid" id="content">
-            <div class="col-lg-4 col-md-6">
-                    <img src="img/settings.jpg">
+        <?php include 'includes/header.php'; ?>
+        <div class="container" id="content">
+            <h3>Change Password</h3>
+            <form action="settings_script.php" method="POST">
+                <div class="form-group">
+                    <input type="password" class="form-control" name="old-password"  placeholder="Old Password" required = "true">
                 </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6" id="settings-container">
-                    <h4>Change Password</h4>
-                    <form action="settings_script.php" method="POST">
-                        <div class="form-group">
-                            <input type="password" class="form-control" name="old-password"  placeholder="Old Password" required = "true">
-                        </div>
-                        <div class="form-group">
-                            <input type="password" class="form-control" name="password" placeholder="New Password" required = "true">
-                        </div>
-                        <div class="form-group">
-                            <input type="password" class="form-control" name="password1"  placeholder="Re-type New Password" required = "true">
-                        </div>
-                        <button type="submit" class="btn btn-primary">Change</button>
-                       <?php if(isset($_GET['error'])) echo $_GET['error']; ?>
-                    </form>
+                <div class="form-group">
+                    <input type="password" class="form-control" name="password" placeholder="New Password" required = "true">
                 </div>
-            </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" name="password1"  placeholder="Re-type New Password" required = "true">
+                </div>
+                <button type="submit" class="btn">Change</button>
+                <?php if(isset($_GET['error'])) echo $_GET['error']; ?>
+            </form>
         </div>
         <?php include("includes/footer.php"); ?>
     </body>
