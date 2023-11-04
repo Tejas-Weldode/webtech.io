@@ -23,7 +23,8 @@ require("includes/common.php");
         <!-- custom styles by tejas weldode -->
         <style>
             body{
-                background-color: rgb(210, 247, 210);
+                background: white;
+                
             }
         .jumbotron{
             background-color: rgb(18, 170, 18);
@@ -33,7 +34,7 @@ require("includes/common.php");
             -moz-box-shadow: 12px 10px 26px -10px rgba(0,0,0,0.53);
         }
         .thumbnail{
-            background: white;
+            background-color: rgb(210, 247, 210);
             border-radius: 20px;
             box-shadow: 12px 10px 26px -10px rgba(0,0,0,0.53);
             -webkit-box-shadow: 12px 10px 26px -10px rgba(0,0,0,0.53);
