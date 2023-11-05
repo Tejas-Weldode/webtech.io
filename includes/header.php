@@ -1,6 +1,6 @@
 <style>
     .navbar{
-        background-color: white;
+        background-color: rgb(0,0,0);
         border: none;
         color: black;
         box-shadow: 1px 10px 12px -11px rgba(0,0,0,0.75);
