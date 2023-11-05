@@ -44,8 +44,8 @@ include 'includes/header.php';
     </div>
   </div>
 </div>
+</body>
 <?php
 include 'includes/footer.php';
 ?>
-</body>
 </html>

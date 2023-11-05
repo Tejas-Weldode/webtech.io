@@ -25,8 +25,7 @@ if (!isset($_SESSION['email'])) {
                 </div>
             </div>
         </div>
-        <?php include("includes/footer.php");
-        ?>
     </body>
+    <?php include("includes/footer.php");?>
 </html>
 </html>

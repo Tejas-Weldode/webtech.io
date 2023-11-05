@@ -95,11 +95,11 @@ if (isset($_SESSION['email'])) {
             <!--Item categories listing end-->
         </div>
         
-        <!--Footer-->
-        <?php
-        include 'includes/footer.php';
-        ?>
-        <!--Footer end-->
-   
+        
     </body> 
+    <!--Footer-->
+    <?php
+    include 'includes/footer.php';
+    ?>
+    <!--Footer end-->
 </html>

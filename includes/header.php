@@ -1,3 +1,14 @@
+<style>
+    .navbar{
+        background-color: rgb(0,0,0);
+        border: none;
+        color: black;
+        box-shadow: 1px 10px 12px -11px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 1px 10px 12px -11px rgba(0,0,0,0.75);
+        -moz-box-shadow: 1px 10px 12px -11px rgba(0,0,0,0.75);
+    }
+</style>
+
 <!-- this code is header navigation bar in website -->
 <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
@@ -20,7 +31,6 @@
                     <li><a href = "settings.php"><span class = "glyphicon glyphicon-user"></span> Settings</a></li>
                     <li><a href = "orderhistory.php"><span class = "glyphicon glyphicon-file"></span> Order History</a></li>
                     <li><a href = "logout_script.php"><span class = "glyphicon glyphicon-log-in"></span> Logout</a></li>
-                    ?>
                     <?php
                 } else {
                     ?>
@@ -30,7 +40,7 @@
                     <li><a href="contact.php"><span class="glyphicon glyphicon-phone"></span> Contact</a></li>
                         <?php
                     }
-                    ?>
+                ?>
             </ul>
         </div>
     </div>
