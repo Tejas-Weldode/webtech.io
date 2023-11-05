@@ -28,8 +28,8 @@ if (!isset($_SESSION['email'])) {
             }
         </style>
     </head>
+    <?php include 'includes/header.php'; ?>
     <body>
-        <?php include 'includes/header.php'; ?>
         <div class="container" id="content">
             <div class="row">
                 <div class="col-lg-6" id="settings-container">
@@ -52,6 +52,6 @@ if (!isset($_SESSION['email'])) {
                 </div>
             </div>
         </div>
-        <?php include("includes/footer.php"); ?>
     </body>
+    <?php include("includes/footer.php"); ?>
 </html>
