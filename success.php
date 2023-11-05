@@ -20,20 +20,33 @@ mysqli_query($con, $query) or die($mysqli_error($con));
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
     </head>
+    <style>
+        body{
+            background-color: rgb(197, 247, 195)
+        }
+        .jumbotron{
+            background-color: rgb(18, 170, 18);
+            color: white;
+        }
+        .jumbotron a{
+            color: white;
+            text-decoration: underline;
+        }
+        .jumbotron a:hover{
+            color: blue;
+            text-decoration: underline;
+        }
+    </style>
     <body>
-        <?php include 'header.php'; ?>
+        <?php include 'includes/header.php'; ?>
 
-        <div class="container-fluid" id="content">
-            <div class="col-md-12">
-                <div class="col-lg-4 col-md-6 ">
-                    <img src="img/thanks.png" style="float: left;">
-                </div>
-                <div class="jumbotron">
-                      <h3 align="center">YAY!! Your order is confirmed. Thank you for shopping with us.</h3><hr>
-                    <p align="center">Click <a href="products.php">here</a> to purchase any other item.</p>
-                </div>
+        <div class="container" id="content">
+            <div class="jumbotron">
+                    <h2 align="center">YAY!! Your order is confirmed. Thank you for shopping with us.</h2><hr>
+                <p align="center">Click <a href="products.php">here</a> to purchase any other item.</p>
             </div>
         </div>
+
         <?php include("includes/footer.php");
         ?>
     </body>
