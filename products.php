@@ -20,7 +20,7 @@ require("includes/common.php");
         <script src="js/jquery.js"></script>
         <!-- Bootstrap Core JavaScript -->
         <script src="js/bootstrap.min.js"></script>
-        <!-- custom styles by tejas weldode -->
+        <!-- custom styles by tejas weldode and tarun rathod -->
         <style>
             body{
                 background: white;
@@ -84,7 +84,7 @@ require("includes/common.php");
             <div class="row text-center" id="cameras">
                 <div class="col-md-3 col-sm-6 home-feature">
                     <div class="thumbnail">
-                        <img src="img/5.jpg" alt="">
+                        <img src="img/zamia5.jpg" alt="">
                         <div class="caption">
                             <h3>Cannon EOS </h3>
                             <p>Price: Rs. 36000.00 </p>
@@ -109,7 +109,7 @@ require("includes/common.php");
 
                 <div class="col-md-3 col-sm-6 home-feature">
                     <div class="thumbnail">
-                        <img src="img/2.jpg" alt="">
+                        <img src="img/zamia3.jpg" alt="">
                         <div class="caption">
                             <h3>Nikon DSLR </h3>
                             <p>Price: Rs. 40,000.00 </p>
@@ -135,7 +135,7 @@ require("includes/common.php");
 
                 <div class="col-md-3 col-sm-6 home-feature">
                     <div class="thumbnail">
-                        <img src="img/3.jpg" alt="">
+                        <img src="img/zamia4.jpg" alt="">
                         <div class="caption">
                             <h3>Sony DSLR</h3>
                             <p>Price: Rs. 45000.00</p>
@@ -161,7 +161,7 @@ require("includes/common.php");
 
                 <div class="col-md-3 col-sm-6 home-feature">
                     <div class="thumbnail">
-                        <img src="img/4.jpg" alt="">
+                        <img src="img/zamia2.jpg" alt="">
                         <div class="caption">
                             <h3>Olympus DSLR</h3>
                             <p>Price: Rs. 50000.00</p>
@@ -189,7 +189,7 @@ require("includes/common.php");
             <div class="row text-center" id="watches">
                 <div class="col-md-3 col-sm-6 home-feature">
                     <div class="thumbnail">
-                        <img src="img/18.jpg" alt="">
+                        <img src="img/zamia.jpg" alt="">
                         <div class="caption">
                             <h3>Titan Model #301 </h3>
                             <p>Price: Rs. 13000.00 </p>
@@ -215,7 +215,7 @@ require("includes/common.php");
 
                 <div class="col-md-3 col-sm-6 home-feature">
                     <div class="thumbnail">
-                        <img src="img/19.jpg" alt="">
+                        <img src="img/zamia9.jpg" alt="">
                         <div class="caption">
                             <h3>Titan Model #201</h3>
                             <p>Price: Rs. 3000.00 </p>
@@ -241,7 +241,7 @@ require("includes/common.php");
 
                 <div class="col-md-3 col-sm-6 home-feature">
                     <div class="thumbnail">
-                        <img src="img/20.jpg" alt="">
+                        <img src="img/zamia11.jpg" alt="">
                         <div class="caption">
                             <h3>HMT Milan</h3>
                             <p>Price: Rs. 8000.00 </p>
@@ -267,7 +267,7 @@ require("includes/common.php");
 
                 <div class="col-md-3 col-sm-6 home-feature">
                     <div class="thumbnail">
-                        <img src="img/21.jpg" alt="">
+                        <img src="img/zamia12.jpg" alt="">
                         <div class="caption">
                             <h3>Faber Luba #111 </h3>
                             <p>Price: Rs. 18000.00 </p>
@@ -295,7 +295,7 @@ require("includes/common.php");
             <div class="row text-center" id="shirts">
                 <div class="col-md-3 col-sm-6 home-feature">
                     <div class="thumbnail">
-                        <img src="img/22.jpg" alt="">
+                        <img src="img/zamia2.jpg" alt="">
                         <div class="caption">
                             <h3>H&W </h3>
                             <p>Price: Rs. 800.00 </p>
@@ -321,7 +321,7 @@ require("includes/common.php");
 
                 <div class="col-md-3 col-sm-6 home-feature">
                     <div class="thumbnail">
-                        <img src="img/23.jpg" alt="">
+                        <img src="img/zamia15.jpg" alt="">
                         <div class="caption">
                             <h3>Luis Phil</h3>
                             <p>Price: Rs. 1000.00</p>
@@ -347,7 +347,7 @@ require("includes/common.php");
 
                 <div class="col-md-3 col-sm-6 home-feature">
                     <div class="thumbnail">
-                        <img src="img/24.jpg" alt="">
+                        <img src="img/zamia14.jpg" alt="">
                         <div class="caption">
                             <h3>John Zok</h3>
                             <p>Price: Rs. 1500.00</p>
@@ -373,7 +373,7 @@ require("includes/common.php");
 
                 <div class="col-md-3 col-sm-6 home-feature">
                     <div class="thumbnail">
-                        <img src="img/25.jpg" alt="">
+                        <img src="img/zamia13.jpg" alt="">
                         <div class="caption">
                             <h3>Jhalsani</h3>
                             <p>Price Rs. 1300.00</p>

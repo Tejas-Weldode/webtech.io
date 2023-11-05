@@ -38,11 +38,11 @@ if (isset($_SESSION['email'])) {
         <div id="content">
             <!--Main banner image-->
             <div id = "banner_image">
-                <div class="container"> 
+                <div class="container" b> 
                     <center>
                         <div id="banner_content">
-                            <h1>We sell lifestyle.</h1>
-                            <p>Flat 40% OFF on premium brands </p>
+                            <h1>Plant happiness with each purchase!</h1>
+                            <p>Flat 40% OFF on Plants Nursery </p>
                             <br/>
                             <a  href="products.php" class="btn btn-danger btn-lg active">Shop Now</a>
                         </div>
@@ -57,10 +57,10 @@ if (isset($_SESSION['email'])) {
                     <div class="col-sm-4">
                         <a href="products.php#cameras" >
                             <div class="thumbnail">
-                                <img src="img/1.jpg" alt="">
+                                <img src="img/zamia3.jpg" alt="">
                                 <div class="caption">
-                                    <h3>Cameras</h3>
-                                    <p>Choose among the best available in the world.</p>
+                                    <h3>Singonium</h3>
+                                    <p>Singonium Pink Plant + Elite</p>
                                 </div>
                             </div> 
                         </a>
@@ -69,10 +69,10 @@ if (isset($_SESSION['email'])) {
                     <div class="col-sm-4">
                         <a href="products.php#watches" >
                             <div class="thumbnail">
-                                <img src="img/10.jpg" alt="">
+                                <img src="img/zamia.jpg" alt="">
                                 <div class="caption">
-                                    <h3>Watches</h3>
-                                    <p>Original watches from the best brands.</p>
+                                    <h3>Zamia</h3>
+                                    <p>Green Plant With Watering Pot</p>
                                 </div>
                             </div> 
                         </a>
@@ -81,10 +81,10 @@ if (isset($_SESSION['email'])) {
                     <div class="col-sm-4">
                         <a href="products.php#shirts" >
                             <div class="thumbnail">
-                                <img src="img/13.jpg" alt="">
+                                <img src="img/zamia2.jpg" alt="">
                                 <div class="caption">
-                                    <h3>Shirts</h3>
-                                    <p>Our exquisite collection of shirts.</p>
+                                    <h3>Elite</h3>
+                                    <p>Spider Plant With Self Watering Pot</p>
                                 </div>
                             </div>
                         </a>
