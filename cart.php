@@ -8,7 +8,7 @@ if (!isset($_SESSION['email'])) {
 <html lang="en">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Cart | ife Style Store</title>
+        <title>Cart</title>
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
         <script src="js/jquery.js"></script>
@@ -23,7 +23,7 @@ if (!isset($_SESSION['email'])) {
             <div class="row decor_bg" style="    display: flex;
             justify-content: center;
             align-items: center;
-        }">
+        ">
                 <div class="col-md-6" style="border: 0.1px solid grey; background-color: white; border-radius:5px">
                     <table class="table table-striped">
     

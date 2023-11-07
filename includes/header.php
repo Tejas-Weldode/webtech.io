@@ -37,7 +37,7 @@
                     <li><a href="signup.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
                     <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                     <li><a href="aboutus.php"><span class="glyphicon glyphicon-tasks"></span> About us</a></li>
-                    <li><a href="contact.php"><span class="glyphicon glyphicon-phone"></span> Contact</a></li>
+                    
                         <?php
                     }
                 ?>

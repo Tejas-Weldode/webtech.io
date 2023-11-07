@@ -86,7 +86,7 @@ require("includes/common.php");
                     <div class="thumbnail">
                         <img src="img/zamia5.jpg" alt="">
                         <div class="caption">
-                            <h3>Cannon EOS </h3>
+                            <h3>Plant one </h3>
                             <p>Price: Rs. 36000.00 </p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
@@ -111,7 +111,7 @@ require("includes/common.php");
                     <div class="thumbnail">
                         <img src="img/zamia3.jpg" alt="">
                         <div class="caption">
-                            <h3>Nikon DSLR </h3>
+                            <h3>Plant two </h3>
                             <p>Price: Rs. 40,000.00 </p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
@@ -137,7 +137,7 @@ require("includes/common.php");
                     <div class="thumbnail">
                         <img src="img/zamia4.jpg" alt="">
                         <div class="caption">
-                            <h3>Sony DSLR</h3>
+                            <h3>Plant three</h3>
                             <p>Price: Rs. 45000.00</p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
@@ -163,7 +163,7 @@ require("includes/common.php");
                     <div class="thumbnail">
                         <img src="img/zamia2.jpg" alt="">
                         <div class="caption">
-                            <h3>Olympus DSLR</h3>
+                            <h3>Plant four</h3>
                             <p>Price: Rs. 50000.00</p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
@@ -191,7 +191,7 @@ require("includes/common.php");
                     <div class="thumbnail">
                         <img src="img/zamia.jpg" alt="">
                         <div class="caption">
-                            <h3>Titan Model #301 </h3>
+                            <h3>Plant five</h3>
                             <p>Price: Rs. 13000.00 </p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
@@ -217,7 +217,7 @@ require("includes/common.php");
                     <div class="thumbnail">
                         <img src="img/zamia9.jpg" alt="">
                         <div class="caption">
-                            <h3>Titan Model #201</h3>
+                            <h3>Plant six</h3>
                             <p>Price: Rs. 3000.00 </p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
@@ -243,7 +243,7 @@ require("includes/common.php");
                     <div class="thumbnail">
                         <img src="img/zamia11.jpg" alt="">
                         <div class="caption">
-                            <h3>HMT Milan</h3>
+                            <h3>Plant seven</h3>
                             <p>Price: Rs. 8000.00 </p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
@@ -269,7 +269,7 @@ require("includes/common.php");
                     <div class="thumbnail">
                         <img src="img/zamia12.jpg" alt="">
                         <div class="caption">
-                            <h3>Faber Luba #111 </h3>
+                            <h3>Plant eight</h3>
                             <p>Price: Rs. 18000.00 </p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
@@ -297,7 +297,7 @@ require("includes/common.php");
                     <div class="thumbnail">
                         <img src="img/zamia2.jpg" alt="">
                         <div class="caption">
-                            <h3>H&W </h3>
+                            <h3>Plant nine</h3>
                             <p>Price: Rs. 800.00 </p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
@@ -323,7 +323,7 @@ require("includes/common.php");
                     <div class="thumbnail">
                         <img src="img/zamia15.jpg" alt="">
                         <div class="caption">
-                            <h3>Luis Phil</h3>
+                            <h3>Plant ten</h3>
                             <p>Price: Rs. 1000.00</p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
@@ -349,7 +349,7 @@ require("includes/common.php");
                     <div class="thumbnail">
                         <img src="img/zamia14.jpg" alt="">
                         <div class="caption">
-                            <h3>John Zok</h3>
+                            <h3>Plant eleven</h3>
                             <p>Price: Rs. 1500.00</p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>
@@ -375,7 +375,7 @@ require("includes/common.php");
                     <div class="thumbnail">
                         <img src="img/zamia13.jpg" alt="">
                         <div class="caption">
-                            <h3>Jhalsani</h3>
+                            <h3>Plant twelve</h3>
                             <p>Price Rs. 1300.00</p>
                             <!--User has to login to purchase the items-->
                             <?php if (!isset($_SESSION['email'])) { ?>

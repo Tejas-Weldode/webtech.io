@@ -35,7 +35,7 @@ if (isset($_SESSION['email'])) {
         .row{
             display : flex;
             /* justify-content : center; */
-            align-cintent: center;
+            align-content: center;
             margin-left: 29vw;
             padding-bottom : 5px;
         }
